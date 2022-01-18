@@ -53,5 +53,30 @@ This low level language is a character stream, in which my program will take and
 Using concepts such as Formal Grammars and Formal Semantics to be able to assign meanings to the character stream, the interpreter can execute the streams of characters and output the mathematical result.
 
 
+# How to run
+First and foremost, the program is divided into two file, part1_template.ml which is our interpreter and part3_template.ml which is our compiler.
+To run Ocaml, we need to download:
+* https://ocaml.org/docs/install.html
+Our if using Visual Studio, we can install the following extension:
+* https://marketplace.visualstudio.com/items?itemName=freebroccolo.reasonml
+
+In the example folder, the out folder contains text1.txt...text2.txt which is the inputs for our interpreter (part1_template.ml). Executing the content of the text file into the interpreter would then return output contain in the res folder.
+
+Example:
+
+Executing the text1.txt file in out folder would return the text1.txt in res folder.
+
+The src folder contains the inputs for our compiler, the corresponding output is the input for our interpreter. Meaning:
+
+Executing the text1.txt file in src folder would return the text1.txt file in out folder.
+
+# Final thought
+The semester is over, and I will not continue any changes to the codes. All text file in the example folder works and has been tested by myself. I do intend to revisit my work from time to time. Any code suggestion and changes are welcomed and I'm eager to learn from my mistake.
+
+# Note 11/30/2021
+I do intend to revisit this readme.md and fix some of my wordings.
+
+
+
 
 
