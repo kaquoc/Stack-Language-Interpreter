@@ -57,7 +57,8 @@ Using concepts such as Formal Grammars and Formal Semantics to be able to assign
 First and foremost, the program is divided into two file, part1_template.ml which is our interpreter and part3_template.ml which is our compiler.
 To run Ocaml, we need to download:
 * https://ocaml.org/docs/install.html
-Our if using Visual Studio, we can install the following extension:
+
+Or if using Visual Studio, we can install the following extension:
 * https://marketplace.visualstudio.com/items?itemName=freebroccolo.reasonml
 
 In the example folder, the out folder contains text1.txt...text2.txt which is the inputs for our interpreter (part1_template.ml). Executing the content of the text file into the interpreter would then return output contain in the res folder.
